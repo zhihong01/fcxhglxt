@@ -1,0 +1,9 @@
+.is-main{height: 876px;background: url(../images/bg.jpg) no-repeat left top scroll;background-size:cover;position: absolute;top: 38px;left: 0;width: 100%;height: 100%;}
+.u-logobox{text-align: center;margin-top: 105px;}
+.m-arrange{width: 1102px;height: 556px;margin: 0 auto;}
+.m-arrange>div{width: 280px;height: 180px;margin: 65px 0 0 65px;float: left;position: relative;text-align: center; background: #fff;background-color:rgba(255,255,255,0.7);}
+.m-arrange>div img{margin-top: 15px;}
+.m-arrange>div>a{display: block;width: 100%;height: 100%;color: #fff;font-size: 20px;font-weight: bold;}
+.m-arrange span{position: absolute;left:0px;top: 100px;width: 100%;display: block;text-align: center;}
+.m-foot{position: absolute;bottom: 0;left: 0;height: 53px;opacity: 0.8;background: #030303;color: #fff;text-align: center;line-height: 53px;width: 100%;}
+.m-foot a{color: #fff;}

@@ -1,0 +1,145 @@
+/*全局 on*/
+html{-webkit-text-size-adjust:none;}
+*html{background-image:url(about:blank); background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
+*{margin: 0; padding: 0; list-style: none;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+body{padding:0; margin:0; font: 14px/1.5 "Microsoft YaHei",微软雅黑,'宋体',tahoma,Verdana,arial,sans-serif; color:#333;}
+input,textarea,select,button,label{vertical-align:middle; outline:none; font-family:"Microsoft YaHei",微软雅黑;}
+textarea{resize:none;}
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,a,form,input,label,select{margin:0; padding:0; list-style:none;}
+a{color:#333; text-decoration:none; outline:none;}
+a:hover{color:#3079c6; text-decoration:none;}
+a img{border:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{margin:0; overflow:hidden; visibility:hidden; font-size: 0; content: "."; clear: both; height: 0; padding:0;}
+.clearfix:after{visibility:hidden; display: block; font-size: 0; content:" "; clear:both; height:0;}
+* html .clearfix{zoom: 1;} /* IE6 */
+*:first-child+html .clearfix{zoom: 1;} /* IE7 */
+h1,h2,h3{font-weight: normal;}
+.hidden{display: none;}
+/*全局 end*/
+
+.m-leftscroll{ width: 280px; overflow-y: scroll;float: left;height: 860px;}
+.m-mapchanges{height: 140px; padding: 0 12px; border-bottom: 1px solid #ddd;}
+.m-mapchanges ul li{float: left; margin: 20px 10px 0; width: 127px; height: 94px; text-align: center;}
+.m-mapchanges ul li a{display: block; padding: 59px 0 14px; border-radius: 6px; color: #fff;}
+.m-mapchanges ul li.u-mp00 a{background-color: #e5b46e; background-position: 50px 18px;}
+.m-mapchanges ul li.u-mp00 a.current{background-color: #6b430b;}
+.m-mapchanges ul li.u-mp01 a{background-color: #58cb84; background-position: -96px 18px;}
+.m-mapchanges ul li.u-mp01 a.current{background-color: #045824;} 
+.m-mapunit{margin: 5px 0;}
+/* .m-mapunit ul li{line-height: 40px; background: url(../images/page/bg-no.png) 22px center no-repeat;}
+.m-mapunit ul li span{display: inline-block; width: 20px; text-align: center; padding: 0 22px; font-size: 12px; color: #fff;} */
+.m-mapunit ul li.hide{display: none;}
+.m-mapright{ width: 752px !important; height: 860px !important;float: right;}
+.m-mapright .BMap_mask{width:100%}
+.poilist li a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #0069c5;
+    letter-spacing: 1px;
+}
+.m-leftscroll .listItem{text-align: center;padding-bottom: 20px;background: #F5F5F5;}
+.m-leftscroll .listItem+.listItem{margin-top: 10px;}
+.m-leftscroll .listItem .itemIndex{display: none;}
+.m-leftscroll .listItem:hover{background: #17569E;}
+.m-leftscroll .listItem:hover .itemName{color: #fff;}
+.m-leftscroll .listItem:hover .itemmsg{background: url(../images/detail.png) no-repeat 10px 7px #fff;}
+.m-leftscroll .listItem:hover .itemempt{background: url(../images/man.png) no-repeat 10px 6px #fff;}
+.m-leftscroll .poilist .itemmsg,.m-leftscroll .poilist .itemempt{
+	display: inline-block;
+	width: 80px;
+	height: 23px;
+	border: 1px solid #17569E;
+	padding:0 0 0 20px;
+	border-radius:4px ;
+	font-size: 14px;
+	color: #333;
+}
+.m-leftscroll .poilist .itemName{font-size: 16px;color: #333;font-weight: bold;}
+.m-leftscroll .poilist .itemmsg{background: url(../images/detail.png) no-repeat 10px 7px;margin-right: 10px;}
+.m-leftscroll .poilist .itemempt{background: url(../images/man.png) no-repeat 10px 6px;margin-left: 10px;}
+
+.poilist li a i {
+    position: relative;
+    margin-right: 10px;
+    font-size: 26px;
+    vertical-align: middle;
+    color: #cdcdcd;
+}
+.poilist li a i em {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.poilist li p {
+    color: #666;
+    margin: 0;
+    line-height: 1.8;
+    padding-left: 37px;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.BMap_bubble_content {
+    color: #666;
+}
+.fieldImg{margin-top:10px;;}
+.fieldImg img{ width:220px;}
+.infoRow {
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.infoLabel {
+    float: left;
+    width: 44px;
+    text-align: right;
+}
+.infoValue {
+    padding-left: 50px;
+}
+.goHere {
+    text-align: center;
+    margin-top: 10px;
+}
+.goHere a {
+    background: #2e858f;
+    padding: 4px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.ewm {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.info-icon {
+    font-size: 20px;
+    color: #f00;
+}
+.name {
+    color: #2e858f;
+    font-weight: bold;
+    margin-top: 3px;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.m-map{margin-top: 20px;text-align: center;width: 1060px;overflow: hidden;}
+
+
+
+
+
+
+

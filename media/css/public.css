@@ -1,0 +1,57 @@
+/*
+* @description: 专题样式
+* @author: ishang_pan
+* @update: ishang_pan (2018-08-16 15:38)
+*/
+
+/*全局 on*/
+html{-webkit-text-size-adjust:none;}
+*html{background-image:url(about:blank); background-attachment:fixed;}/*解决IE6下滚动抖动的问题*/
+*{margin: 0; padding: 0; list-style: none;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+body{padding:0; margin:0; font: 14px/1.5 "Microsoft YaHei",微软雅黑,'宋体',tahoma,Verdana,arial,sans-serif; color:#333; min-width: 1100px;position: relative;}
+input,textarea,select,button,label{vertical-align:middle; outline:none; font-family:"Microsoft YaHei",微软雅黑;}
+textarea{resize:none;}
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,a,form,input,label,select{margin:0; padding:0; list-style:none;}
+a{color:#333; text-decoration:none; outline:none;}
+a:hover{color:#e22929; text-decoration:none;}
+a img{border:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{margin:0; overflow:hidden; visibility:hidden; font-size: 0; content: "."; clear: both; height: 0; padding:0;}
+.clearfix:after{visibility:hidden; display: block; font-size: 0; content:" "; clear:both; height:0;}
+* html .clearfix{zoom: 1;} /* IE6 */
+*:first-child+html .clearfix{zoom: 1;} /* IE7 */
+h1,h2,h3{font-weight: normal;}
+.hidden{display: none;}
+i{font-style: normal;}
+/*全局 end*/
+
+/*头部 on*/
+.is-header{background: #f5f5f5;}
+.m-gov{margin: 0 auto; width: 1100px; height: 38px; line-height: 38px;background: #f5f5f5;}
+.m-gov,.m-gov a{color:#333;}
+.m-gov .u-login{background: url(../images/login.png) no-repeat left center;padding-left:20px;margin-right: 5px;}
+.m-logo{background: #fff;}
+.m-logo>div{height: 150px;width: 1100px;line-height: 187px;text-align: left;margin: 0 auto;}
+.m-nav{width: 100%;background: #17569e;}
+.m-nav .content{width: 1100px;height: 48px;margin: 0 auto;overflow: hidden;}
+.m-nav .content ul{overflow: hidden;text-align: center;line-height: 48px;font-size: 18px; font-weight:bold ; }
+.m-nav .content ul li{float: left; padding: 0 27px;}
+.m-nav .content ul li a{color: #fff;display: block;}
+.m-nav .content ul li:hover{background: #043a83;-webkit-transition: all .4s ease-out;-moz-transition: all .4s ease-out;-o-transition: all .4s ease-out;transition: all .4s ease-out;}
+/*头部 end*/
+/*主体 on*/
+.is-main{background: #f5f5f5;padding-bottom: 20px;}
+.m-employ{width: 1060px;background: #fff;padding: 20px;margin: 0 auto;}
+.m-emhead{background: #F5F5F5;padding: 15px;position: relative;overflow: hidden;}
+.m-emhead>h2{background: url(../images/nav.png) no-repeat left center;float: left;color: #17569E;padding-left: 16px;font-weight: bold;}
+.u-search{ position: absolute;top: 15px;right: 15px; width: 294px;height: 30px;border: 1px solid #dddddd;background: #fff;border-radius: 15px;}
+.u-search .text{width: 228px;height: 30px;line-height: 30px;float: left;border: none;padding: 0 0 0 12px;color: #999;border-radius: 15px;}
+.u-search .btn{float: right;width: 40px;height: 30px;background: url(../images/search.png) no-repeat center center #fff;border: none;cursor: pointer;margin:  0;border-radius: 15px;}
+/*主体 end*/
+/*底部 on*/
+.is-footer{height: 88px;border-top: 2px solid #17569E;text-align: center;line-height: 88px;background: #fff;}
+			.is-footer a{margin-left:20px ;}
+/*dibu end*/

@@ -1,0 +1,9 @@
+.m-detailmsg{width:1060px;border: 1px solid #ddd;margin-top: 20px;overflow: hidden;}
+.m-detailmsg li{line-height: 55px;overflow: hidden;font-size: 16px;}
+.m-detailmsg li+li{border-top: 1px solid #ddd;}
+.m-detailmsg li span{display: block;float: left;}
+.m-detailmsg li span:first-child{background: #eff6ff;text-align: right;padding-right:25px;width: 175px;font-weight: bold;}
+.m-detailmsg li span:last-child{text-align: left;padding-left: 30px;width: 829px;border-left:1px solid #ddd ;}
+.m-detailmsg i{display: inline-block;cursor: pointer;vertical-align: middle;}
+.m-detailmsg .selbox{width: 15px;height: 15px;border: 1px solid #ddd;margin:0 10px;}
+.m-detailmsg .on{background: url(../images/select.png) no-repeat center center;}
